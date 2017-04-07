@@ -1,0 +1,3 @@
+{
+    "DontOutputCode":["const", "language"]
+}
