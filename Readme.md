@@ -1,3 +1,5 @@
+# Dependent
+   go install github.com/tealeg/xlsx
 # Build
     编译xlsx2txt工具
     go build convertxlsx
@@ -8,12 +10,12 @@
     可以指定某些xlsx 不输出代码
 
 # Usage
-    ## Usage of outputcode.exe:
+## Usage of outputcode.exe:
     -i string
             (输入目录或文件) input a directory or file
     -o string
             (输出目录) Output to directory
-    ## Usage of convertxlsx.exe:
+## Usage of convertxlsx.exe:
     -f string
             (选择格式) Select txt format or xc format (default "txt")
     -i string
