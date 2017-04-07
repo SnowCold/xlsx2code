@@ -110,7 +110,7 @@ func (w *XcDataStreamWriter) WriteString(sVal string) {
 }
 
 func (w *XcDataStreamWriter) WriteVector2(vec2 base.Vector2) {
-	binary.Write(w.fd, binary.BigEndian, int32(fVal))
+	//binary.Write(w.fd, binary.BigEndian, int32(fVal))
 }
 
 func (w *XcDataStreamWriter) WriteVector3(vec3 base.Vector3) {

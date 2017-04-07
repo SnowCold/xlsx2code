@@ -1,0 +1,5 @@
+﻿道具ID	道具名字	道具描述	道具品质	道具等级	道具类型	叠加数量	可拥有数量上限	使用类型	流程ID
+string	string	string	int	int	int	int	int	int	string
+Id	ItemName	ItemDes	Rare	ItemLevel	Type	StackNum	NumMax	UsedType	FlowID
+item1000	ItemName_item1000	ItemDes_item1000	4	1	5	9999	9999	0	
+item1006	ItemName_1006	ItemDes_1006	1	1	5	999	9999	0	
